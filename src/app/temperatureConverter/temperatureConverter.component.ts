@@ -7,10 +7,19 @@ import {Component, Input, OnInit} from '@angular/core';
 })
 
 export class TemperatureConverter implements OnInit {
+  mymodel: number;
+  F: number;
 
   ngOnInit() {
-    // C = (F − 32) × 5/9
-    // F = C*9/5 + 32
   }
-
+valuechange(newValue) {
+  this.mymodel = newValue;
+  this.F = Math.round((this.mymodel * 9/5 + 32)*10)/10;
+  console.log(newValue);
+}
+valuechanges(newValue) {
+  this.F = newValue;
+  this.mymodel = (this.F - 32) * 5/9;
+  console.log(newValue);
+}
 }
