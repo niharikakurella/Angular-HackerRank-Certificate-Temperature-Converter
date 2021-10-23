@@ -19,7 +19,7 @@ valuechange(newValue) {
 }
 valuechanges(newValue) {
   this.F = newValue;
-  this.mymodel = (((this.F - 32) * 5/9)*10)/10;
+  this.mymodel = Math.round(((this.F - 32) * 5/9)*10)/10;
   console.log(this.mymodel);
 }
 }
