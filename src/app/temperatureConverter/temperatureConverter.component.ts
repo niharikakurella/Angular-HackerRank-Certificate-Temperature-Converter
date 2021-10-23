@@ -15,11 +15,11 @@ export class TemperatureConverter implements OnInit {
 valuechange(newValue) {
   this.mymodel = newValue;
   this.F = Math.round((this.mymodel * 9/5 + 32)*10)/10;
-  console.log(newValue);
+  console.log(this.F);
 }
 valuechanges(newValue) {
   this.F = newValue;
-  this.mymodel = (this.F - 32) * 5/9;
-  console.log(newValue);
+  this.mymodel = (((this.F - 32) * 5/9)*10)/10;
+  console.log(this.mymodel);
 }
 }

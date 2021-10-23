@@ -1,20 +1,10 @@
 <?xml version="1.0"?>
-<testsuite name="HeadlessChrome 78.0.3904 (Linux 0.0.0)" package="unit" timestamp="2021-10-23T07:30:04" id="0" hostname="workspaceqddxumbrex4fxb2j.ws-5c669bc7b5-jnptt" tests="5" errors="0" failures="2" time="0.145">
+<testsuite name="HeadlessChrome 78.0.3904 (Linux 0.0.0)" package="unit" timestamp="2021-10-23T07:35:27" id="0" hostname="workspaceqddxumbrex4fxb2j.ws-5c669bc7b5-jnptt" tests="5" errors="0" failures="2" time="0.124">
   <properties>
     <property name="browser.fullName" value="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/78.0.3904.108 Safari/537.36"/>
   </properties>
-  <testcase name="TemperatureConverter Typing value in Fahrenheit field gets correct Celsius value upto 1 decimal values" time="0.063" classname=".TemperatureConverter">
-    <failure type="">Error: Expected 37.77777777777778 to equal 37.8.
-    at &lt;Jasmine&gt;
-    at http://localhost:9876/_karma_webpack_/src/app/temperatureConverter/temperatureConverter.component.spec.ts:78:40
-    at &lt;Jasmine&gt;
-    at fulfilled (http://localhost:9876/_karma_webpack_/node_modules/tslib/tslib.es6.js:71:42)
-</failure>
-  </testcase>
-  <testcase name="TemperatureConverter Typing value in Fahrenheit field gets correct Celsius value" time="0.013" classname=".TemperatureConverter"/>
-  <testcase name="TemperatureConverter Typing value in Celsius field gets correct Fahrenheit value" time="0.011" classname=".TemperatureConverter"/>
-  <testcase name="TemperatureConverter Typing value in Celsius field gets correct Fahrenheit value upto 1 decimal values" time="0.024" classname=".TemperatureConverter"/>
-  <testcase name="TemperatureConverter Perform series of actions" time="0.034" classname=".TemperatureConverter">
+  <testcase name="TemperatureConverter Typing value in Celsius field gets correct Fahrenheit value" time="0.062" classname=".TemperatureConverter"/>
+  <testcase name="TemperatureConverter Perform series of actions" time="0.018" classname=".TemperatureConverter">
     <failure type="">Error: Expected -12.222222222222221 to equal -12.2.
     at &lt;Jasmine&gt;
     at http://localhost:9876/_karma_webpack_/src/app/temperatureConverter/temperatureConverter.component.spec.ts:84:40
@@ -28,15 +18,25 @@
     at fulfilled (http://localhost:9876/_karma_webpack_/node_modules/tslib/tslib.es6.js:71:42)
 </failure>
   </testcase>
+  <testcase name="TemperatureConverter Typing value in Fahrenheit field gets correct Celsius value upto 1 decimal values" time="0.011" classname=".TemperatureConverter">
+    <failure type="">Error: Expected 37.77777777777778 to equal 37.8.
+    at &lt;Jasmine&gt;
+    at http://localhost:9876/_karma_webpack_/src/app/temperatureConverter/temperatureConverter.component.spec.ts:78:40
+    at &lt;Jasmine&gt;
+    at fulfilled (http://localhost:9876/_karma_webpack_/node_modules/tslib/tslib.es6.js:71:42)
+</failure>
+  </testcase>
+  <testcase name="TemperatureConverter Typing value in Fahrenheit field gets correct Celsius value" time="0.023" classname=".TemperatureConverter"/>
+  <testcase name="TemperatureConverter Typing value in Celsius field gets correct Fahrenheit value upto 1 decimal values" time="0.01" classname=".TemperatureConverter"/>
   <system-out>
-    <![CDATA[HeadlessChrome 78.0.3904 (Linux 0.0.0) LOG: 100
-,HeadlessChrome 78.0.3904 (Linux 0.0.0) LOG: 932
-,HeadlessChrome 78.0.3904 (Linux 0.0.0) LOG: 500
-,HeadlessChrome 78.0.3904 (Linux 0.0.0) LOG: 32
+    <![CDATA[HeadlessChrome 78.0.3904 (Linux 0.0.0) LOG: 500
 ,HeadlessChrome 78.0.3904 (Linux 0.0.0) LOG: 10
 ,HeadlessChrome 78.0.3904 (Linux 0.0.0) LOG: 10
 ,HeadlessChrome 78.0.3904 (Linux 0.0.0) LOG: 200
 ,HeadlessChrome 78.0.3904 (Linux 0.0.0) LOG: 248
+,HeadlessChrome 78.0.3904 (Linux 0.0.0) LOG: 100
+,HeadlessChrome 78.0.3904 (Linux 0.0.0) LOG: 932
+,HeadlessChrome 78.0.3904 (Linux 0.0.0) LOG: 32
 
 ]]>
   </system-out>
